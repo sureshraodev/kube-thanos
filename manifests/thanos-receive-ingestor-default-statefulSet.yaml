@@ -143,6 +143,7 @@ spec:
     spec:
       accessModes:
       - ReadWriteOnce
+      storageClassName: "eks-tools-sc"
       resources:
         requests:
           storage: 10Gi
